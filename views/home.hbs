@@ -1,0 +1,11 @@
+<div x-data="form">
+    <h1>Example App: Home</h1>
+    <textarea placeholder="Enter text" class="border p-2" x-model="text"></textarea>
+    <button
+        class="p-2 bg-blue-800 text-white"
+        @click="toSpeech($data)"
+        type="button"
+    >Done</button>
+</div>
+
+<script src="/scripts/home.js" />
